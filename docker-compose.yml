@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: hello:latest
+    volumes:
+      - ./logs:/app/logs
+    ports:
+      - "0.0.0.0:19909:80"
+    restart: unless-stopped

@@ -1,0 +1,9 @@
+Name: hello-api
+Host: 0.0.0.0
+Port: 80
+
+Log:
+  ServiceName: hello-api
+  Mode: file
+  Path: logs
+  Level: debug
